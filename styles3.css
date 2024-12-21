@@ -1,0 +1,62 @@
+@import url(reset.css);
+
+body {
+	background: yellowgreen;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	font-family: "Playwrite";
+	font-weight: 700;
+}
+
+.block-1 {
+	font-size: 0;
+	}
+
+.block-1>p {
+	font-size: 20px;
+	padding: 20px;
+	width: 400px;
+	height: 400px;
+	outline: 2px solid red;
+	float: left;
+	background-color: blue;
+}
+
+.block-2 {
+	font-size: 0;
+}
+
+.block-2-parent {
+	font-size: 20px;
+	width: 800px;
+	outline: 2px solid red;
+	float: left;
+	}
+
+.block-2-parent p {
+	outline: 2px solid red;
+	background-color: aquamarine;
+}
+
+.block-2-item {
+	width: 397px;
+}
+.h-150{
+	height: 150px;
+}
+.h-200{
+	height: 200px;
+}
+.h-260{
+	height: 260px;
+}
+
+
+.clearfix::after {
+	content: 123 ;
+	clear: left;
+	display: block;
+}
